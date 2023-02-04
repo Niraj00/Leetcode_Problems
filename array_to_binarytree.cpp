@@ -10,8 +10,7 @@ class TreeNode
 };
 
 TreeNode* newNode(int data);
-TreeNode* sortedArrayToBST(int arr[],
-						int start, int end)
+TreeNode* sortedArrayToBST(int arr[],int start, int end)
 {
 	if (start > end)
 	return NULL;
